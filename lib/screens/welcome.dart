@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:roller_skating/utils/theme.dart';
+import 'package:roller_skating/widgets/go_button.dart';
 
 class GetStarted extends StatelessWidget {
   const GetStarted({Key? key}) : super(key: key);
@@ -10,6 +11,7 @@ class GetStarted extends StatelessWidget {
       backgroundColor: SkatingTheme.primaryColor,
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             Image.asset(
               "images/skating.png",
@@ -25,39 +27,9 @@ class GetStarted extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 30),
-            const GoButton()
+            const GoButton(),
+            const SizedBox(height: 30),
           ],
-        ),
-      ),
-    );
-  }
-}
-
-class GoButton extends StatelessWidget {
-  const GoButton({
-    Key? key,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return TextButton(
-      onPressed: () {},
-      child: const Text(
-        "Go",
-        style: TextStyle(fontSize: 20),
-      ),
-      style: ButtonStyle(
-        backgroundColor: MaterialStateProperty.resolveWith(
-          (states) => SkatingTheme.white,
-        ),
-        foregroundColor: MaterialStateProperty.resolveWith(
-          (states) => SkatingTheme.primaryColor,
-        ),
-        shape: MaterialStateProperty.resolveWith(
-          (states) => const CircleBorder(),
-        ),
-        padding: MaterialStateProperty.resolveWith(
-          (states) => const EdgeInsets.all(25),
         ),
       ),
     );
