@@ -1,16 +1,29 @@
-# roller_skating
+# Roller Skater UI
+[![](https://img.shields.io/badge/FlutterEveryday-Day%207-blue.svg)](https://github.com/HeySreelal/Flutter-Everyday)
 
-Roller Skating - Rent / Sale App
+Travel App UI by [@_creativedesign36](https://www.instagram.com/_creativedesign36).
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## 🦄 Design 
+Here's the original design:
 
-A few resources to get you started if this is your first Flutter project:
+[![Original Design](/assets/Original.jpg)](https://www.instagram.com/p/CcU9CKbLC2g/)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## 🦄 Results
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Reult](assets/Result.gif)
+
+## 💬 Note
+The release build for Android (apk) is available on the Release tab.
+<br>
+
+## 🛸 Credits
+- Complete UI is done by [@_creativedesign36](https://www.instagram.com/_creativedesign36).
+## 🌚 Contact 
+
+You can connect me on [Telegram](https://t.me/heysreelal) all the time or on [Twitter](https://twitter.com/HeySreelal) or [Instagram](https://instagram.com/heysreelal).
+
+I always prefer Telegram over Instagram or Twitter. I'm always open to new ideas and suggestions. 🦄
+
+# Thank You ❤️
+Show your support by sharing or starring the repo. ⭐️
